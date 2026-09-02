@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Our Mission - Kurdish Women’s Society UK</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<img src="logo.jpg" alt="Kurdish Women’s Society UK Logo" style="width:180px;">
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="mission.html">Our Mission</a></li>
+    <li><a href="constitution.html">Constitution</a></li>
+  </ul>
+</nav>
+
+<h1>Our Mission</h1>
+
+<ul>
+  <li>To create safe spaces for Kurdish women</li>
+  <li>To support wellbeing, confidence, and personal growth</li>
+  <li>To celebrate Kurdish culture and identity</li>
+  <li>To remove financial barriers to opportunities</li>
+  <li>To help women access external training programmes</li>
+  <li>To build a strong international community of Kurdish women</li>
+</ul>
+
+<footer>
+  Kurdish Women’s Society UK © 2026
+</footer>
+
+</body>
+</html>
+
+

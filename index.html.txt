@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Kurdish Women’s Society UK</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<img src="logo.jpg" alt="Kurdish Women’s Society UK Logo" style="width:180px;">
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="mission.html">Our Mission</a></li>
+    <li><a href="constitution.html">Constitution</a></li>
+  </ul>
+</nav>
+
+<h1>Kurdish Women’s Society UK</h1>
+<p>Empowering Kurdish women through wellbeing, culture, confidence, and access to opportunities.</p>
+
+<footer>
+  Kurdish Women’s Society UK © 2026
+</footer>
+
+</body>
+</html>
+
+
