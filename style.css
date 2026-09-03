@@ -1,76 +1,88 @@
-/* Global layout */
+/* GLOBAL */
 body {
     font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0B1762; /* Your navy */
-    color: #C0C0C0; /* Silver text */
+    background-color: #FFFFFF; /* White content background */
+    color: #C0C0C0; /* Silver writing */
     line-height: 1.7;
 }
 
-/* Header layout */
+/* HEADER */
 header {
-    display: flex;
-    align-items: left;
-    padding: 30px 40px;
+    background-color: #0B1762; /* Navy */
+    color: #C0C0C0; /* Silver */
+    text-align: center;
+    padding: 50px 120px; /* Much larger margins on both sides */
     border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 
+/* Centered logo */
 header img {
-    width: 120px;
-    margin-centre: 45px;
+    display: block;
+    margin: 0 auto;
+    width: 140px;
+    padding-bottom: 20px;
 }
 
+/* Header title */
 header h1 {
-    font-size: 32px;
+    font-size: 34px;
     margin: 0;
     font-weight: 600;
+    color: #FFFFFF; /* White title */
     letter-spacing: -0.5px;
-    color: #FFFFFF; /* White title for contrast */
 }
 
-/* Navigation */
+/* NAVIGATION */
 nav {
-    padding: 15px 40px;
+    background-color: #0B1762; /* Navy */
+    text-align: center; /* Center the menu */
+    padding: 20px 120px; /* Wide margins */
     border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 
 nav a {
-    margin-right: 25px;
+    margin: 0 20px;
     text-decoration: none;
     color: #C0C0C0; /* Silver links */
     font-weight: 500;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 nav a:hover {
     color: #FFFFFF; /* White hover */
 }
 
-/* Page content */
+/* CONTENT AREA */
 section {
     max-width: 900px;
-    margin: 40px auto;
+    margin: 50px auto;
     padding: 0 20px;
+    background-color: #FFFFFF; /* White body */
 }
 
+/* Headings in navy for contrast */
 h2 {
-    font-size: 26px;
+    font-size: 28px;
     margin-bottom: 15px;
     font-weight: 600;
-    color: #FFFFFF; /* White headings */
+    color: #0B1762; /* Navy */
 }
 
+/* Paragraphs in silver */
 p {
     font-size: 18px;
     margin-bottom: 20px;
+    color: #C0C0C0; /* Silver writing */
 }
 
-/* Footer */
+/* FOOTER */
 footer {
+    background-color: #0B1762; /* Navy */
     text-align: center;
-    padding: 30px;
+    padding: 40px 120px; /* Wide margins */
     font-size: 14px;
-    color: #C0C0C0;
+    color: #C0C0C0; /* Silver */
     border-top: 1px solid rgba(255,255,255,0.2);
 }
