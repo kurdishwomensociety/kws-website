@@ -1,51 +1,41 @@
 /* GLOBAL */
 body {
-    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #FFFFFF; /* White content background */
-    color: #C0C0C0; /* Silver writing */
+    background-color: #FFFFFF; /* Page background */
+    color: #C0C0C0; /* Silver text */
+    font-family: "Inter", Arial, sans-serif;
     line-height: 1.7;
 }
 
 /* HEADER */
 header {
     background-color: #0B1762; /* Navy */
-    color: #C0C0C0; /* Silver */
     text-align: center;
-    padding: 50px 120px; /* Much larger margins on both sides */
+    padding: 50px 120px; /* Wide spacing */
     border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 
-/* Centered logo */
+/* LOGO – same spacing as menu */
 header img {
     display: block;
     margin: 0 auto;
+    padding: 0 120px; /* SAME spacing as nav buttons */
     width: 140px;
-    padding-bottom: 20px;
-}
-
-/* Header title */
-header h1 {
-    font-size: 34px;
-    margin: 0;
-    font-weight: 600;
-    color: #FFFFFF; /* White title */
-    letter-spacing: -0.5px;
 }
 
 /* NAVIGATION */
 nav {
     background-color: #0B1762; /* Navy */
-    text-align: center; /* Center the menu */
-    padding: 20px 120px; /* Wide margins */
+    text-align: center;
+    padding: 20px 120px; /* SAME spacing as header + logo */
     border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 
 nav a {
     margin: 0 20px;
     text-decoration: none;
-    color: #C0C0C0; /* Silver links */
+    color: #C0C0C0; /* Silver */
     font-weight: 500;
     font-size: 18px;
 }
@@ -54,35 +44,14 @@ nav a:hover {
     color: #FFFFFF; /* White hover */
 }
 
-/* CONTENT AREA */
+/* CONTENT SECTION – silver background */
 section {
-    max-width: 900px;
+    background-color: #C0C0C0; /* Silver background */
+    padding: 40px 120px; /* SAME spacing as header/nav */
     margin: 50px auto;
-    padding: 0 20px;
-    background-color: #FFFFFF; /* White body */
+    max-width: 900px;
+    border-radius: 10px; /* Optional: modern look */
 }
 
-/* Headings in navy for contrast */
-h2 {
-    font-size: 28px;
-    margin-bottom: 15px;
-    font-weight: 600;
-    color: #0B1762; /* Navy */
-}
+/* HEADINGS */
 
-/* Paragraphs in silver */
-p {
-    font-size: 18px;
-    margin-bottom: 20px;
-    color: #C0C0C0; /* Silver writing */
-}
-
-/* FOOTER */
-footer {
-    background-color: #0B1762; /* Navy */
-    text-align: center;
-    padding: 40px 120px; /* Wide margins */
-    font-size: 14px;
-    color: #C0C0C0; /* Silver */
-    border-top: 1px solid rgba(255,255,255,0.2);
-}
