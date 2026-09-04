@@ -67,12 +67,14 @@ footer {
     margin-top: 40px;
 }
 
-/* FOOTER LINKS – FORCE NAVY COLOUR */
-footer a:link,
-footer a:visited,
-footer a:active {
+/* FORCE NAVY LINK COLOUR IN FOOTER */
+footer a {
     color: #0B1762 !important;
     text-decoration: none;
+}
+
+footer a:visited {
+    color: #0B1762 !important;
 }
 
 footer a:hover {
