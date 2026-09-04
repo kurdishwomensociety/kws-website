@@ -66,3 +66,13 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+/* FOOTER LINKS – KEEP THEM BLUE */
+footer a:link,
+footer a:visited {
+    color: #0B1762; /* Navy blue */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #08111F; /* Slightly darker navy */
+}
