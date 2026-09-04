@@ -16,55 +16,34 @@ header {
     border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 
-/* LOGO — same spacing as nav buttons */
+/* LOGO — now circular */
 header img {
     display: block;
     margin: 0 auto;
-    padding: 0 120px;
-    width: 140px;
+    width: 180px;
+    height: 180px;        /* ensures perfect circle */
+    object-fit: cover;    /* keeps the image centred */
+    border-radius: 50%;   /* circle */
+    border: 4px solid #C0C0C0; /* optional silver ring */
 }
 
 /* NAVIGATION */
 nav {
     background-color: #0B1762;
     text-align: center;
-    padding: 20px 120px; /* Matches header spacing */
+    padding: 20px 120px;
     border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 
-nav a {
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
     margin: 0 20px;
-    text-decoration: none;
-    color: #C0C0C0; /* Silver */
-    font-weight: 500;
-    font-size: 18px;
 }
 
-nav a:hover {
-    color: #FFFFFF;
-}
-
-/* CONTENT SECTION — silver background + navy text */
-section {
-    background-color: #C0C0C0; /* Silver */
-    padding: 40px 120px; /* Same spacing */
-    margin: 50px auto;
-    max-width: 900px;
-    border-radius: 10px;
-}
-
-/* Navy text inside silver section */
-section h2,
-section p {
-    color: #0B1762; /* Navy */
-}
-
-/* FOOTER — same size as header */
-footer {
-    background-color: #0B1762;
-    text-align: center;
-    padding: 50px 120px; /* SAME as header */
-    color: #C0C0C0;
-    border-top: 1px solid rgba(255,255,255,0.2);
-}
-
+nav
