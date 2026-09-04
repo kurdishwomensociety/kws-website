@@ -67,16 +67,15 @@ footer {
     margin-top: 40px;
 }
 
-/* FORCE NAVY LINK COLOUR IN FOOTER */
-footer a {
-    color: #0B1762 !important;
+/* FOOTER LINKS – KEEP THEM SILVER */
+footer a,
+footer a:visited,
+footer a:active {
+    color: #C0C0C0 !important; /* Silver */
     text-decoration: none;
 }
 
-footer a:visited {
-    color: #0B1762 !important;
+footer a:hover {
+    color: #FFFFFF !important; /* White on hover */
 }
 
-footer a:hover {
-    color: #08111F !important;
-}
