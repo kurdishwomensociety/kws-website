@@ -1,129 +1,83 @@
+
+HTML
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kurdish Women Society Membership</title>
- 
-<style>
-body {
-font-family: Arial, sans-serif;
-background-color: #f2f4f7;
-margin: 0;
-padding: 0;
-color: #1a1a1a;
-}
- 
-header {
-background-color: #0b1f3a;
-color: white;
-text-align: center;
-padding: 30px;
-}
- 
-.container {
-max-width: 800px;
-margin: 40px auto;
-background: white;
-padding: 30px;
-border: 2px solid #c0c0c0;
-border-radius: 10px;
-box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
- 
-h1, h2 {
-color: #0b1f3a;
-}
- 
-label {
-display: block;
-margin-top: 15px;
-font-weight: bold;
-color: #0b1f3a;
-}
- 
-input,
-select,
-textarea {
-width: 100%;
-padding: 12px;
-margin-top: 5px;
-border: 1px solid #c0c0c0;
-border-radius: 5px;
-box-sizing: border-box;
-}
- 
-button {
-background-color: #0b1f3a;
-color: white;
-border: none;
-padding: 14px 20px;
-margin-top: 20px;
-border-radius: 5px;
-cursor: pointer;
-font-size: 16px;
-}
- 
-button:hover {
-background-color: #203d67;
-}
- 
-footer {
-background-color: #0b1f3a;
-color: silver;
-text-align: center;
-padding: 20px;
-margin-top: 40px;
-}
-</style>
+<title>Membership | Kurdish Women Society</title>
+<link rel="stylesheet" href="style.css">
 </head>
  
 <body>
  
 <header>
-<h1>Kurdish Women Society</h1>
-<p>Membership Application</p>
+<img src="logo.jpg" alt="Kurdish Women Society Logo">
 </header>
  
-<div class="container">
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="mission.html">Our Mission</a></li>
+<li><a href="constitution.html">Constitution</a></li>
+<li><a href="membership.html">Membership</a></li>
+</ul>
+</nav>
  
-<h2>Become a Member</h2>
+<section>
+<h1>Membership</h1>
  
 <p>
-Join the Kurdish Women Society and help us empower women through
-wellbeing, culture, education, sport, arts and community engagement.
+Become a member of the Kurdish Women Society and help us empower Kurdish
+women through wellbeing, arts, culture, education, sport and community engagement.
 </p>
  
+<h2>Membership Application</h2>
+ 
 <form>
+<p>
+<label>Full Name</label><br>
+<input type="text" name="fullname" required>
+</p>
  
-<label for="name">Full Name</label>
-<input type="text" id="name" name="name" required>
+<p>
+<label>Email Address</label><br>
+<input type="email" name="email" required>
+</p>
  
-<label for="email">Email Address</label>
-<input type="email" id="email" name="email" required>
+<p>
+<label>Phone Number</label><br>
+<input type="tel" name="phone">
+</p>
  
-<label for="phone">Phone Number</label>
-<input type="tel" id="phone" name="phone">
- 
-<label for="membership">Membership Type</label>
-<select id="membership" name="membership">
+<p>
+<label>Membership Type</label><br>
+<select name="membership">
 <option>General Member</option>
 <option>Volunteer</option>
 <option>Supporter</option>
 <option>Student</option>
 </select>
+</p>
  
-<label for="comments">Comments</label>
-<textarea id="comments" name="comments" rows="5"></textarea>
+<p>
+<label>Why would you like to join?</label><br>
+<textarea name="message" rows="5"></textarea>
+</p>
  
+<p>
 <button type="submit">Submit Application</button>
- 
+</p>
 </form>
  
-</div>
+</section>
  
 <footer>
-Kurdish Women Society © 2026
+Kurdish Women Society © 2026<br>
+Contact:
+<a href="mailto:info@kurdishwomensociety.com">
+info@kurdishwomensociety.com
+</a>
 </footer>
  
 </body>
