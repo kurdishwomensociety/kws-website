@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kurdish Women Society Membership</title>
+ 
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #f2f4f7;
+margin: 0;
+padding: 0;
+color: #1a1a1a;
+}
+ 
+header {
+background-color: #0b1f3a;
+color: white;
+text-align: center;
+padding: 30px;
+}
+ 
+.container {
+max-width: 800px;
+margin: 40px auto;
+background: white;
+padding: 30px;
+border: 2px solid #c0c0c0;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+ 
+h1, h2 {
+color: #0b1f3a;
+}
+ 
+label {
+display: block;
+margin-top: 15px;
+font-weight: bold;
+color: #0b1f3a;
+}
+ 
+input,
+select,
+textarea {
+width: 100%;
+padding: 12px;
+margin-top: 5px;
+border: 1px solid #c0c0c0;
+border-radius: 5px;
+box-sizing: border-box;
+}
+ 
+button {
+background-color: #0b1f3a;
+color: white;
+border: none;
+padding: 14px 20px;
+margin-top: 20px;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+}
+ 
+button:hover {
+background-color: #203d67;
+}
+ 
+footer {
+background-color: #0b1f3a;
+color: silver;
+text-align: center;
+padding: 20px;
+margin-top: 40px;
+}
+</style>
+</head>
+ 
+<body>
+ 
+<header>
+<h1>Kurdish Women Society</h1>
+<p>Membership Application</p>
+</header>
+ 
+<div class="container">
+ 
+<h2>Become a Member</h2>
+ 
+<p>
+Join the Kurdish Women Society and help us empower women through
+wellbeing, culture, education, sport, arts and community engagement.
+</p>
+ 
+<form>
+ 
+<label for="name">Full Name</label>
+<input type="text" id="name" name="name" required>
+ 
+<label for="email">Email Address</label>
+<input type="email" id="email" name="email" required>
+ 
+<label for="phone">Phone Number</label>
+<input type="tel" id="phone" name="phone">
+ 
+<label for="membership">Membership Type</label>
+<select id="membership" name="membership">
+<option>General Member</option>
+<option>Volunteer</option>
+<option>Supporter</option>
+<option>Student</option>
+</select>
+ 
+<label for="comments">Comments</label>
+<textarea id="comments" name="comments" rows="5"></textarea>
+ 
+<button type="submit">Submit Application</button>
+ 
+</form>
+ 
+</div>
+ 
+<footer>
+Kurdish Women Society © 2026
+</footer>
+ 
+</body>
+</html>
