@@ -79,3 +79,33 @@ footer a:hover {
     color: #FFFFFF !important; /* White on hover */
 }
 
+/* MEMBERSHIP FORM */
+ 
+form {
+max-width: 700px;
+}
+ 
+input,
+select,
+textarea {
+width: 100%;
+padding: 10px;
+border: 1px solid #0B1762;
+border-radius: 5px;
+box-sizing: border-box;
+margin-top: 5px;
+}
+ 
+button {
+background-color: #0B1762;
+color: #C0C0C0;
+border: none;
+padding: 12px 20px;
+border-radius: 5px;
+cursor: pointer;
+font-weight: bold;
+}
+ 
+button:hover {
+background-color: #162a85;
+}
