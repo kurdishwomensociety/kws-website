@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thank You – Kurdish Women Society</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #F4F6F8; /* silver-white */
+      color: #0D1B2A; /* deep navy */
+    }
+
+    /* Header */
+    header {
+      background-color: #0A1A2F; /* navy */
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header img {
+      width: 140px;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: #0A1A2F;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #C0C0C0; /* silver */
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    nav a:hover {
+      color: #ffffff;
+    }
+
+    /* Main content */
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #0A1A2F;
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #C0C0C0;
+      font-size: 1.3rem;
+      margin-top: 0;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+
+    .email {
+      font-weight: bold;
+      color: #0A1A2F;
+      margin-top: 20px;
+    }
+
+    .email-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #0A1A2F;
+      color: #fff;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .email-button:hover {
+      background-color: #0D1B2A;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #0A1A2F;
+      color: #C0C0C0;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header with logo (same as other pages) -->
+  <header>
+    <img src="assets/kws-logo.png" alt="Kurdish Women Society Logo">
+  </header>
+
+  <!-- Navigation (same as other pages) -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="membership.html">Membership</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Main content -->
+  <div class="container">
+    <h1>Thank You for Joining Kurdish Women Society</h1>
+    <h2>Your membership strengthens our mission.</h2>
+
+    <p>
+      We’re honoured to welcome you to KWS.  
+      Your membership has been received and is now being reviewed by our team.
+    </p>
+
+    <p>
+      If you have any questions about your membership, events, or opportunities,
+      you can reach us at:
+    </p>
+
+    <p class="email">info@kurdishwomensociety.com</p>
+
+    <a class="email-button" href="mailto:info@kurdishwomensociety.com">
+      Contact KWS
+    </a>
+  </div>
+
+  <!-- Footer (same as other pages) -->
+  <footer>
+    Kurdish Women Society © 2026
+  </footer>
+
+</body>
+</html>
+
